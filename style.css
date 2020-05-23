@@ -1,0 +1,89 @@
+body{
+	background-color: #FFFFFF;
+	color: #525FA0;
+	font-family: Lora, serif;
+	font-size: 17px;
+}
+
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif; 
+}
+h1{
+	color: #142850;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2{
+	color: #24B47E;
+    font-weight: 100;
+    font-size: 20px;
+    font-weight: 400;
+}
+a{
+	font-family: 'Roboto', sans-serif; 
+	text-decoration: none;
+	color: #3196D3;
+	font-weight: 600;
+	font-size: 17px;
+}
+a:hover{
+	color: #120136;
+}
+
+/* Costume class*/
+
+.countainer{
+	width: 700px; 
+	margin:0px auto;
+}
+@media(max-width: 760px){
+	.countainer{
+		width: 600px;
+	}
+}
+@media(max-width: 650px){
+	.countainer{
+		width: 400px;
+	}
+}
+.card-white{
+	background-color: white;
+	border-top: 1px solid rgba(0,0,0,.1);
+	padding: 30px;
+	border-radius: 4px;
+	margin: 10px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #3196D3;
+	color: white;
+	border-radius: 4px;
+	padding: 15px 20px;
+}
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 30px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: rgb(200,200,200);
+}
+.list-inline i:hover{
+	color: black;
+}
+#introduction p{
+	margin-bottom: 40px;
+}
